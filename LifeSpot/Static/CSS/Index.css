@@ -4,7 +4,7 @@
     padding-top: 1%;
 }
 
-.navbar a p {
+#sidebar p{
     color: darkgray;
     padding-left: 15%;
     border-radius: 3px;
@@ -12,13 +12,16 @@
     background: #4a4949;
 }
 
-.navbar a {
+#sidebar a {
     text-decoration: none;
 }
 
-aside a p:hover
-{
+#sidebar a p:hover {
     background-color: cadetblue;
+}
+
+.search-textbox:hover {
+    background-color: yellow;
 }
 
 header {
